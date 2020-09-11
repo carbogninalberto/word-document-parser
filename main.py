@@ -83,8 +83,6 @@ if __name__ == '__main__':
                         tmp_open_file = open_file
                         description_text = ""
                         for text_line in tmp_open_file:
-                            if "APL26" in doc_name:
-                                print(description_text)
                             if text_line == "\n":
                                 break
                             description_text += text_line.replace("\n", " ")
